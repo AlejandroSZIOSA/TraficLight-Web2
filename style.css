@@ -11,6 +11,7 @@ body {
 }
 
 #container {
+  position:relative;
   margin: auto; /* Center the content */
   background-color: rgb(60, 51, 51);
   width: 240px;
@@ -20,7 +21,8 @@ body {
 
 /* This class defines all boxes sizes :) */
 .boxes{
-  position: relative;
+  /* Default value for Position is "static" */
+  position: static;
   width: 200px;
   height: 200px;
   margin-bottom: 10px;
