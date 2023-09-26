@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   border:0;
   padding:0;
@@ -22,15 +22,16 @@ body {
   position: relative;
   width: 200px;
   height: 200px;
-  background-color: rgb(255, 129, 129);
+  background-color: rgb(255, 0, 0);
   border: 20px solid rgb(113, 0, 0);
   margin-bottom:  10px;
 }
 
-#internalRedBox{
+#internalRedBox {
   width: 100%;
   height: 50%;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 126, 126);
+  margin-top: 50%;
 }
 
 #yellowBox {
@@ -42,17 +43,25 @@ body {
   margin-bottom: 10px;
 }
 
-#internalYellowBox{
-  width: 100px;
-  height: 100px;
-  background-color: rgb(255, 0, 0);
+#internalYellowBox {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(255, 213, 0);
+  margin: 50% 0% 0% 50%;
 }
 
-#greenBox{
+#greenBox {
   position: relative;
   width: 200px;
   height: 200px;
   background-color: rgb(0, 255, 42);
   border: 20px solid rgb(33, 173, 2);
   margin-bottom: 10px;
+}
+
+#internalGreenBox {  
+  width: 50%;
+  height: 50%;
+  background-color: rgb(192, 255, 183);
+  margin: 50% 0% 0% 0%;
 }
