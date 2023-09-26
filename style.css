@@ -46,7 +46,7 @@ body {
   border: 20px solid rgb(200, 190, 0);
 }
 
-/* Margin: 1 = top , 2 = bottom, 3 = left, 4 = right  :)*/
+/* margin: [top , right, bottom, left]  :)*/
 #internalYellowDarkerBox {
   width: 50%;
   height: 50%;
