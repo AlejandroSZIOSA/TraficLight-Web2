@@ -1,28 +1,20 @@
-* {
-  margin: 0;
-  border:0;
-  padding:0;
-  box-sizing:border;
-}
-
 body {
-  position: relative;
+  border: 0;
+  margin: 0;
   background-color: rgb(180, 180, 180);
 }
 
 #container {
-  position:relative;
-  margin: auto; /* Center the content */
-  background-color: rgb(88, 88, 88);
-  width: 240px;
-  height: 750px;
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
 }
 
 /* This class defines all boxes sizes :) */
-.boxes{
+.boxes {
   /* Default value for Position is "static" */
-  position: static;
   width: 200px;
   height: 200px;
   margin-bottom: 15px;
@@ -59,7 +51,7 @@ body {
   border: 20px solid rgb(33, 173, 2);
 }
 
-#innerGreenBox {  
+#innerGreenBox {
   width: 50%;
   height: 50%;
   background-color: rgb(171, 249, 161);
