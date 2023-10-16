@@ -3,13 +3,14 @@
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
+  padding: 10px 0px 10px 0px;
 }
 
 body {
   border: 0;
   margin: 0;
-  /* background-color: rgb(180, 180, 180); */
+  background-color: rgb(200, 200, 200);
 }
 
 #container {
@@ -22,15 +23,15 @@ body {
 #innerContainer {
   flex-direction: column;
   background-color: rgb(139, 139, 139);
-  padding: 30px 30px 0px 30px;
+  padding: 20px 20px 0px 20px;
 }
 
 /* This class defines all boxes sizes :) */
 .boxes {
   /* Default value for Position is "static" */
-  width: 400px;
-  height: 400px;
-  margin-bottom: 30px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 #redBox {
@@ -69,4 +70,80 @@ body {
   height: 50%;
   background-color: rgb(171, 249, 161);
   margin: 50% 0% 0% 0%;
+}
+
+@media (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  body {
+    border: 0;
+    margin: 0;
+    /* background-color: rgb(180, 180, 180); */
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #innerContainer {
+    flex-direction: column;
+    background-color: rgb(139, 139, 139);
+    padding: 30px 30px 0px 30px;
+  }
+
+  /* This class defines all boxes sizes :) */
+  .boxes {
+    /* Default value for Position is "static" */
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  #redBox {
+    background-color: rgb(255, 0, 0);
+    border: 20px solid rgb(113, 0, 0);
+  }
+
+  /* Using percents :) */
+  #innerRedBox {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 126, 126);
+    margin-top: 50%;
+  }
+
+  #yellowBox {
+    background-color: rgb(255, 255, 0);
+    border: 20px solid rgb(200, 190, 0);
+  }
+
+  /* margin: [top , right, bottom, left]  :)*/
+  #innerYellowBox {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(248, 222, 93);
+    margin: 50% 0% 0% 50%;
+  }
+
+  #greenBox {
+    background-color: rgb(0, 255, 42);
+    border: 20px solid rgb(33, 173, 2);
+  }
+
+  #innerGreenBox {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(171, 249, 161);
+    margin: 50% 0% 0% 0%;
+  }
 }
