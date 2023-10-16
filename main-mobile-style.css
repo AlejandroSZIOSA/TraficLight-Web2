@@ -1,16 +1,18 @@
+/* Mobile First: Responsive on Android Pixel 5 */
 * {
+  margin: 0px;
+  padding: 0;
   box-sizing: border-box;
 }
 
 h1 {
-  font-size: 50px;
-  text-align: center;
+  /* This changes responsive */
+  font-size: 25px;
+  padding: 15px;
 }
 
 body {
-  border: 0;
-  margin: 0;
-  background-color: rgb(217, 217, 217);
+  background-color: rgb(200, 200, 200);
 }
 
 #container {
@@ -21,21 +23,21 @@ body {
 }
 
 #innerContainer {
-  /* flex-direction: column; */
   background-color: rgb(139, 139, 139);
-  padding: 30px 30px 0px 30px;
+  padding: 16px 16px 0px 16px;
 }
 
 /* This class defines all boxes sizes :) */
 .boxes {
-  width: 400px;
-  height: 400px;
-  margin-bottom: 30px;
+  /* This changes responsive */
+  width: 216px;
+  height: 216px;
+  margin-bottom: 16px;
 }
 
 #redBox {
   background-color: rgb(255, 0, 0);
-  border: 20px solid rgb(113, 0, 0);
+  border: 16px solid rgb(113, 0, 0);
 }
 
 /* Using percents :) */
@@ -48,7 +50,7 @@ body {
 
 #yellowBox {
   background-color: rgb(255, 255, 0);
-  border: 20px solid rgb(200, 190, 0);
+  border: 16px solid rgb(200, 190, 0);
 }
 
 /* margin: [top , right, bottom, left]  :)*/
@@ -61,7 +63,7 @@ body {
 
 #greenBox {
   background-color: rgb(0, 255, 42);
-  border: 20px solid rgb(33, 173, 2);
+  border: 16px solid rgb(33, 173, 2);
 }
 
 #innerGreenBox {
