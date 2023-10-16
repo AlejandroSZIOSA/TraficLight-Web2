@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 body {
   border: 0;
   margin: 0;
@@ -10,6 +14,7 @@ body {
 
 #container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -17,15 +22,15 @@ body {
 #innerContainer {
   flex-direction: column;
   background-color: rgb(139, 139, 139);
-  padding: 15px 15px 0px 15px;
+  padding: 30px 30px 0px 30px;
 }
 
 /* This class defines all boxes sizes :) */
 .boxes {
   /* Default value for Position is "static" */
-  width: 200px;
-  height: 200px;
-  margin-bottom: 15px;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 30px;
 }
 
 #redBox {
