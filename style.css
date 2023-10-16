@@ -22,7 +22,6 @@ body {
 
 /* This class defines all boxes sizes :) */
 .boxes {
-  /* Default value for Position is "static" */
   width: 200px;
   height: 200px;
   margin-bottom: 15px;
