@@ -21,14 +21,12 @@ body {
 }
 
 #innerContainer {
-  flex-direction: column;
   background-color: rgb(139, 139, 139);
   padding: 20px 20px 0px 20px;
 }
 
 /* This class defines all boxes sizes :) */
 .boxes {
-  /* Default value for Position is "static" */
   width: 230px;
   height: 230px;
   margin-bottom: 20px;
@@ -96,14 +94,13 @@ body {
   }
 
   #innerContainer {
-    flex-direction: column;
+    /* flex-direction: column; */
     background-color: rgb(139, 139, 139);
     padding: 30px 30px 0px 30px;
   }
 
   /* This class defines all boxes sizes :) */
   .boxes {
-    /* Default value for Position is "static" */
     width: 400px;
     height: 400px;
     margin-bottom: 30px;
