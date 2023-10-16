@@ -1,15 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   border: 0;
   margin: 0;
-  background-color: rgb(180, 180, 180);
+  /* background-color: rgb(180, 180, 180); */
 }
 
 #container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: black;
+}
+
+#innerContainer {
+  flex-direction: column;
+  background-color: rgb(139, 139, 139);
+  padding: 15px 15px 0px 15px;
 }
 
 /* This class defines all boxes sizes :) */

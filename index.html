@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Traffic Lights</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Traffic Lights</title>
+  </head>
   <body>
-    <div id ="container">
+    <div id="container">
+      <div id="innerContainer">
+        <!-- Combining "classes" and "id" selectors :) -->
+        <div class="boxes" id="redBox">
+          <div id="innerRedBox"></div>
+        </div>
 
-      <!-- Combining "classes" and "id" selectors :) -->
-      <div class="boxes" id="redBox"> 
-        <div id="innerRedBox"></div>
-      </div>
+        <div class="boxes" id="yellowBox">
+          <div id="innerYellowBox"></div>
+        </div>
 
-      <div class="boxes" id="yellowBox"> 
-        <div id="innerYellowBox"> </div>      
+        <div class="boxes" id="greenBox">
+          <div id="innerGreenBox"></div>
+        </div>
       </div>
-      
-      <div class="boxes "id="greenBox"> 
-        <div id="innerGreenBox"></div>
-      </div>
-
     </div>
   </body>
 </html>
